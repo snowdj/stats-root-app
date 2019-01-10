@@ -13,4 +13,4 @@ dispatch:
 
   # Send all mobile traffic to the mobile frontend.
   - url: "*/publications/gva-2017"
-    service: gva_publication
+    service: gva-publication
