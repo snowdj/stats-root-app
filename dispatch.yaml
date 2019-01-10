@@ -11,3 +11,6 @@ dispatch:
   - url: "*/data-tools/economic-estimates"
     service: economic-estimates-tool
 
+  # Send all mobile traffic to the mobile frontend.
+  - url: "*/publications/gva-2017"
+    service: gva_publication
