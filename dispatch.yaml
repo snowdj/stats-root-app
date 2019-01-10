@@ -6,3 +6,8 @@ dispatch:
   # Send all mobile traffic to the mobile frontend.
   - url: "*/data-tools/museum-visits"
     service: museum-visits-dashboard
+
+  # Send all mobile traffic to the mobile frontend.
+  - url: "*/data-tools/economic-estimates"
+    service: economic-estimates-tool
+
